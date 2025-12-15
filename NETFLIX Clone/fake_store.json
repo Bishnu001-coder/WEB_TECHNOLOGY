@@ -1,0 +1,82 @@
+
+{
+  "productdetails": [
+    {
+      "id": 1,
+      "title": "Sony WH-1000XM3 Bluetooth Wireless Over Ear Headphones with Mic (Silver)",
+      "image": "https://storage.googleapis.com/fir-auth-1c3bc.appspot.com/1692947383286-714WUJlhbLS._SL1500_.jpg",
+      "price": 773,
+      "description": "Digital noise cancelling : Industry leading Active Noise Cancellation (ANC)...",
+      "brand": "sony",
+      "model": "WH-1000XM3",
+      "color": "silver",
+      "category": "audio"
+    },
+    {
+      "id": 2,
+      "title": "Samsung Galaxy S22 5G (Phantom White, 8GB RAM, 128GB Storage)...",
+      "image": "https://storage.googleapis.com/fir-auth-1c3bc.appspot.com/1691074519203-galaxy S22 5G.jpg",
+      "price": 760,
+      "description": "Pro-grade Camera that lets you make your nights epic with Nightography...",
+      "brand": "samsung",
+      "model": "Samsung Galaxy S22 5G",
+      "color": "White",
+      "category": "mobile"
+    },
+    {
+      "id": 3,
+      "title": "Samsung Galaxy M13 (Aqua Green, 6GB, 128GB Storage)",
+      "image": "https://storage.googleapis.com/fir-auth-1c3bc.appspot.com/1691075065521-galaxy M13.jpg",
+      "price": 140,
+      "description": "6000mAh lithium-ion battery, Upto 12GB RAM with RAM Plus...",
+      "brand": "samsung",
+      "model": "Samsung Galaxy M13",
+      "color": "Aqua Green",
+      "category": "mobile"
+    },
+    {
+      "id": 4,
+      "title": "Sony Srs-Xb13 Wireless Extra Bass Portable Bluetooth Speaker...",
+      "image": "https://storage.googleapis.com/fir-auth-1c3bc.appspot.com/1692940742197-speaker1.jpg",
+      "price": 42,
+      "description": "Waterproof and dustproof with an IP67 rating, up to 16 hours battery...",
+      "brand": "sony",
+      "model": "SRS-XB13",
+      "color": "black",
+      "category": "audio"
+    },
+    {
+      "id": 5,
+      "title": "JBL Tune 720BT Wireless Over Ear Headphones with Mic...",
+      "image": "https://storage.googleapis.com/fir-auth-1c3bc.appspot.com/1691055458260-headphone.jpg",
+      "price": 63,
+      "description": "JBL PURE BASS SOUND, up to 76 hours playtime, Quick charge...",
+      "brand": "jbl",
+      "model": "Tune 720BT",
+      "color": "Blue",
+      "category": "audio"
+    },
+    {
+      "id": 6,
+      "title": "LG 139 cm (55 inches) 4K Ultra HD Smart OLED TV 55BXPTA",
+      "image": "https://storage.googleapis.com/fir-auth-1c3bc.appspot.com/1694156089516-71KVQa4N4zL._SL1500_.jpg",
+      "price": 1322,
+      "description": "Display backlight technology, number of display pixels...",
+      "brand": "LG",
+      "model": "OLED55BXPTA",
+      "color": "dark steel silver",
+      "category": "tv"
+    },
+    {
+      "id": 7,
+      "title": "TOSHIBA 80 cm (32 inches) V Series HD Ready Smart Android LED TV",
+      "image": "https://storage.googleapis.com/fir-auth-1c3bc.appspot.com/1694165393188-917cT1r-aUL._SL1500_.jpg",
+      "price": 150,
+      "description": "Android TV 11(R), 1GB RAM, 8GB ROM, Quad Core, Netflix, Prime Video...",
+      "brand": "toshiba",
+      "model": "32V35MP",
+      "color": "black",
+      "category": "tv"
+    }
+  ]
+}

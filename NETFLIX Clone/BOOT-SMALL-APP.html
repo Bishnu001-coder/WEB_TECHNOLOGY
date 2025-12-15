@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Car Info and Price</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-primary">
+    <div class="container">
+      <a class="navbar-brand  fw-bold" href="#">CAR INFO and PRICE</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link text-white active" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="#">Link</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white" href="#" data-bs-toggle="dropdown">Dropdown</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item fw-bold" href="#">Action</a></li>
+              <li><a class="dropdown-item fw-bold" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item fw-bold" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link disabled text-white fw-bold" href="#">Disabled</a></li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" />
+          <button class="btn btn-outline-light" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Section Template -->
+  <section class="container py-5">
+    <h1 class="display-4 text-center mb-5">BMW</h1>
+    <div class="row g-4 justify-content-center">
+      <div class="col-md-4 col-lg-3">
+        <div class="card h-100 text-center">
+          <img src="../NETFLIX Clone/assets/bmw1.jpg" class="card-img-top" alt="BMW 3 Series">
+          <div class="card-body">
+            <h5 class="card-title">BMW 3 Series</h5>
+            <p class="card-text">Compact sports sedan offering dynamic performance with sleek interiors and premium features.</p>
+            <a href="#" class="btn btn-secondary mb-2">₹ <span class="bm_1">50</span>-LA</a>
+            <a href="#" class="btn btn-success mb-2">BUY NOW</a>
+            
+            <button  id="btn_1"class="btn btn-primary  inc-btn">inecrement the price</button>
+            <br>
+            <br>
+            <a href="#" class="btn btn-primary" class="dec-btn">decrement the price</a>
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-lg-3">
+        <div class="card h-100 text-center">
+          <img src="../NETFLIX Clone/assets/b2.jpg" class="card-img-top" alt="BMW 4x Series">
+          <div class="card-body">
+            <h5 class="card-title">BMW 4x Series</h5>
+            <p class="card-text">Luxurious coupe with aggressive styling, great handling, and powerful engine choices.</p>
+            <a href="#" class="btn btn-secondary mb-2">₹ 70-LA</a>
+            <a href="#" class="btn btn-success mb-2">BUY NOW</a>
+            <a href="#" class="btn btn-primary">SEE MORE INFO</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-lg-3">
+        <div class="card h-100 text-center">
+          <img src="../NETFLIX Clone/assets/b3.jpg" class="card-img-top" alt="BMW 32B Series">
+          <div class="card-body">
+            <h5 class="card-title">BMW 32B Series</h5>
+            <p class="card-text">Stylish sedan built for everyday luxury driving with advanced tech and comfort.</p>
+            <a href="#" class="btn btn-danger mb-2">₹ 80-LA</a>
+            <a href="#" class="btn btn-success mb-2">BUY NOW</a>
+            <a href="#" class="btn btn-primary">SEE MORE INFO</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-lg-3">
+        <div class="card h-100 text-center">
+          <img src="../NETFLIX Clone/assets/b4.jpg" class="card-img-top" alt="BMW 41X Series">
+          <div class="card-body">
+            <h5 class="card-title">BMW 41X Series</h5>
+            <p class="card-text">Modern sedan combining innovation, performance, and executive-class comfort.</p>
+            <a href="#" class="btn btn-primary mb-2">₹ 90-LA</a>
+            <a href="#" class="btn btn-success mb-2">BUY NOW</a>
+            <a href="#" class="btn btn-primary">SEE MORE INFO</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-lg-3">
+        <div class="card h-100 text-center">
+          <img src="../NETFLIX Clone/assets/b5.jpg" class="card-img-top" alt="BMW 55A Series">
+          <div class="card-body">
+            <h5 class="card-title">BMW 55A Series</h5>
+            <p class="card-text">Top-tier luxury sedan with exceptional build quality and elite driving experience.</p>
+            <a href="#" class="btn btn-primary mb-2">₹ 1-CR</a>
+            <a href="#" class="btn btn-success mb-2">BUY NOW</a>
+            <a href="#" class="btn btn-primary">SEE MORE INFO</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Repeat for Mercedes -->
+  <section class="container py-5">
+    <h1 class="display-4 text-center mb-5">Mercedes Benz</h1>
+    <div class="row g-4 justify-content-center">
+      <div class="col-md-4 col-lg-3">
+        <div class="card h-100 text-center">
+          <img src="../NETFLIX Clone/assets/m1.jpg" class="card-img-top" alt="Mercedes benz 3A Series">
+          <div class="card-body">
+            <h5 class="card-title">Mercedes benz 3A Series</h5>
+            <p class="card-text">Elegant sedan with smooth ride quality, tech-rich interiors, and efficient powertrains.</p>
+            <a href="#" class="btn btn-primary mb-2">₹ 50-LA</a>
+            <a href="#" class="btn btn-success mb-2">BUY NOW</a>
+            <a href="#" class="btn btn-primary">SEE MORE INFO</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-lg-3">
+        <div class="card h-100 text-center">
+          <img src="../NETFLIX Clone/assets/m2.jpg" class="card-img-top" alt="Mercedes benz 34B Series">
+          <div class="card-body">
+            <h5 class="card-title">Mercedes benz 34B Series</h5>
+            <p class="card-text">A blend of style and substance with cutting-edge safety and design excellence.</p>
+            <a href="#" class="btn btn-danger mb-2">₹ 60-LA</a>
+            <a href="#" class="btn btn-success mb-2">BUY NOW</a>
+            <a href="#" class="btn btn-primary">SEE MORE INFO</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-lg-3">
+        <div class="card h-100 text-center">
+          <img src="../NETFLIX Clone/assets/m3.jpg" class="card-img-top" alt="Mercedes benz 42Q Series">
+          <div class="card-body">
+            <h5 class="card-title">Mercedes benz 42Q Series</h5>
+            <p class="card-text">Powerful and premium, designed for those who seek both luxury and thrill.</p>
+            <a href="#" class="btn btn-danger mb-2">₹ 70-LA</a>
+            <a href="#" class="btn btn-success mb-2">BUY NOW</a>
+            <a href="#" class="btn btn-primary">SEE MORE INFO</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-lg-3">
+        <div class="card h-100 text-center">
+          <img src="../NETFLIX Clone/assets/m4.jpg" class="card-img-top" alt="Mercedes benz 75B Series">
+          <div class="card-body">
+            <h5 class="card-title">Mercedes benz 75B Series</h5>
+            <p class="card-text">Refined looks, plush interiors, and remarkable driving comfort with prestige.</p>
+            <a href="#" class="btn btn-danger mb-2">₹ 80-LA</a>
+            <a href="#" class="btn btn-success mb-2">BUY NOW</a>
+            <a href="#" class="btn btn-primary">SEE MORE INFO</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-lg-3">
+        <div class="card h-100 text-center">
+          <img src="../NETFLIX Clone/assets/m5.jpg" class="card-img-top" alt="Mercedes benz 12S Series">
+          <div class="card-body">
+            <h5 class="card-title">Mercedes benz 12S Series</h5>
+            <p class="card-text">Flagship model offering advanced luxury and prestige with state-of-the-art tech.</p>
+            <a href="#" class="btn btn-primary mb-2">₹ 1-CR</a>
+            <a href="#" class="btn btn-success mb-2">BUY NOW</a>
+            <a href="#" class="btn btn-primary">SEE MORE INFO</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lamborghini Section -->
+  <section class="container py-5">
+    <h1 class="display-4 text-center mb-5">Lamborghini</h1>
+    <div class="row g-4 justify-content-center">
+      <div class="col-md-4 col-lg-3">
+        <div class="card h-100 text-center">
+          <img src="../NETFLIX Clone/assets/l1.jpg" class="card-img-top" alt="Lamborgini 74E Series">
+          <div class="card-body">
+            <h5 class="card-title">Lamborgini 74E Series</h5>
+            <p class="card-text">Iconic design with blistering performance, made for thrill-seeking supercar lovers.</p>
+            <a href="#" class="btn btn-danger mb-2">₹ 1-CR</a>
+            <a href="#" class="btn btn-success mb-2">BUY NOW</a>
+            <a href="#" class="btn btn-primary">SEE MORE INFO</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-lg-3">
+        <div class="card h-100 text-center">
+          <img src="../NETFLIX Clone/assets/l2.jpg" class="card-img-top" alt="Lamborgini 81H Series">
+          <div class="card-body">
+            <h5 class="card-title">Lamborgini 81H Series</h5>
+            <p class="card-text">Performance beast with aerodynamic styling and unmatched track-level precision.</p>
+            <a href="#" class="btn btn-danger mb-2">₹ 2-CR</a>
+            <a href="#" class="btn btn-success mb-2">BUY NOW</a>
+            <a href="#" class="btn btn-primary">SEE MORE INFO</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-lg-3">
+        <div class="card h-100 text-center">
+          <img src="../NETFLIX Clone/assets/l3.jpg" class="card-img-top" alt="Lamborgini 45D Series">
+          <div class="card-body">
+            <h5 class="card-title">Lamborgini 45D Series</h5>
+            <p class="card-text">A fierce mix of Italian elegance and high-octane horsepower for enthusiasts.</p>
+            <a href="#" class="btn btn-primary mb-2">₹ 3-CR</a>
+            <a href="#" class="btn btn-success mb-2">BUY NOW</a>
+            <a href="#" class="btn btn-primary">SEE MORE INFO</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-lg-3">
+        <div class="card h-100 text-center">
+          <img src="../NETFLIX Clone/assets/l4.jpg" class="card-img-top" alt="Lamborgini 787D Series">
+          <div class="card-body">
+            <h5 class="card-title">Lamborgini 787D Series</h5>
+            <p class="card-text">Exotic driving machine pushing design and performance boundaries beyond limits.</p>
+            <a href="#" class="btn btn-danger mb-2">₹ 4-CR</a>
+            <a href="#" class="btn btn-success mb-2">BUY NOW</a>
+            <a href="#" class="btn btn-primary">SEE MORE INFO</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-lg-3">
+        <div class="card h-100 text-center">
+          <img src="../NETFLIX Clone/assets/l5.jpg" class="card-img-top" alt="Lamborgini 36K Series">
+          <div class="card-body">
+            <h5 class="card-title">Lamborgini 36K Series</h5>
+            <p class="card-text">Legendary supercar blending art, science, and power into one road-dominating force.</p>
+            <a href="#" class="btn btn-danger mb-2">₹ 5-CR</a>
+            <a href="#" class="btn btn-success mb-2">BUY NOW</a>
+            <a href="#" class="btn btn-primary">SEE MORE INFO</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bootstrap JS -->
+  
+</body>
+</html>

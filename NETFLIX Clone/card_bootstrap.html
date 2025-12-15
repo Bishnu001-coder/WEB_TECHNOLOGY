@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+.custom-shadow{
+      box-shadow: -14px -15px 10px rgb(11, 11, 14);
+}
+</style>
+</head>
+<body>
+    <div class="card custom-shadow  h-10 img-fluid m-auto mt-5 pt-5" style="width: 18rem;">
+  <img src ="https://www.bmw.in/content/dam/bmw/common/topics/offers-and-services/bmw-special-sales-2020/protection-vehicle/bmw-css-7-series-protection-ms-new-standard.jpg" class="card-img-top" alt="">
+  <div class="card-body">
+    <h5 class="card-title  text-center" style="color: red;">BMW car </h5>
+    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis sunt, est earum incidunt ducimus eum repudiandae! Illo, et quaerat debitis molestias odit impedit dolor enim quam beatae quia, accusantium labore!
+    
+    <br>  <div class="text-center">
+  <a href="#" class="btn btn-dark custom-shadow">submit</a>
+  <br>
+  <span id="sp1">50</span>
+  <br>
+
+  <button id="inc_1" class="btn btn-dark">increment btn</button>
+  <button id="dec_1" class="btn btn-success">decrement btn</button>
+</div>
+</div>
+<script>
+let count=50;
+let SP1=document.getElementById('sp1')
+SP1.textContent=count;
+ let INC_BTN=document.getElementById('inc_1');
+  let DEC_BTN=document.getElementById('dec_1');
+  INC_BTN.onclick=function(){
+    count++;
+    SP1.textContent=count;
+  }
+  DEC_BTN.addEventListener('click',()=>{
+    if(count>1){
+      count--;
+      sp1.textContent=count;
+    }
+  })
+</script>
+</body>
+</html>
