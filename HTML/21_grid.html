@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .c1{
+            gap: 10px ;
+            border: 2px solid black;
+            display: grid;
+            grid-template-areas:"nav nav nav"
+                                "article side side"
+                                "footer footer footer";
+                                    
+        }
+        .I{
+            border: 2px solid red;
+            
+        }
+        
+        .I-1{
+            grid-area: nav;
+            height: 100px;
+            background-color: blue;       
+
+        }
+        .I-2{
+            height: 200px;
+            
+            grid-area: article;
+            background-color: blueviolet;
+        }
+        .I-3{
+            
+            grid-area: side;
+        background-color: palevioletred;
+    
+        }
+        .I-4{
+            height: 100px;
+            
+            grid-area: footer;
+            background-color: gold;
+
+        }
+        .I-5{
+            height: 100px;
+            grid-area: footer;
+            background-color: gold;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="c1">
+    <div class="I I-1">item1</div>
+    <div class="I I-2">item2</div>
+    <div class="I I-3">item3</div>
+    <div class="I I-4">item4</div>
+    
+    
+    </div>
+</body>
+</html>

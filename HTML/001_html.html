@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>YouTube Intro Animation</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* hide scroll during intro */
+  }
+
+  /* Intro container */
+  #intro {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+
+  /* Hide main content initially */
+  #content {
+    display: none;
+    text-align: center;
+    padding-top: 100px;
+  }
+</style>
+</head>
+<body>
+
+<!-- YouTube Intro -->
+<div id="intro">
+  <iframe 
+    id="introVideo"
+    src="https://www.youtube.com/embed/IWgpMQIUV50?autoplay=1&mute=1&controls=0&rel=0&showinfo=0"
+    allow="autoplay; encrypted-media"
+    allowfullscreen>
+  </iframe>
+</div>
+
+<!-- Main Content -->
+<div id="content">
+  <h1>Welcome to My Website!</h1>
+  <p>This is your main page after the intro animation.</p>
+</div>
+
+<script>
+  // Hide intro after a few seconds (example: 10 seconds)
+  setTimeout(() => {
+    document.getElementById("intro").style.display = "none";
+    document.getElementById("content").style.display = "block";
+    document.body.style.overflow = "auto";
+  }, 10000); // change 10000 to match your video length (in milliseconds)
+</script>
+
+</body>
+</html>

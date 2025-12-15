@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title><script>
+        let stu=[{id:100,name:"bishnu",age:23,gender:"male"},
+        {id:101,name:"PQR",age:23,gender:"female"},
+        {id:102,name:"ABC",age:23,gender:"female"},
+        {id:103,name:"DEF",age:23,gender:"male"},
+        {id:104,name:"GHI",age:23,gender:"female"},
+        {id:105,name:"JKL",age:23,gender:"male"},
+        {id:106,name:"MNO",age:23,gender:"female"}]
+
+        let male_stud=stu.filter((stu)=>{
+            if(stu.gender=="male") return stu;
+        })
+        let female_stud=stu.filter((stu)=>{
+            if(stu.gender=="female") return stu;
+        })
+        console.log(male_stud)
+        console.log(female_stud)
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

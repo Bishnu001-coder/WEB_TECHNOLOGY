@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .c1{
+            height: 40vh;
+            width: 40vw;
+            background-color: aqua;
+        }
+        .box{
+            height: 45px;
+            width: 45px;
+            background-color: red;
+            /* animation: bishnu;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+           animation-timing-function: ease-in-out;
+           animation-delay: 1s; */
+           animation:A1 3s linear  infinite alternate ,A2 3s ease-in-out infinite alternate;
+
+        }
+        @keyframes A1 {
+            from{
+        background-color: red;
+                transform:skewX(10deg);
+                border-radius: 0px;
+                
+            }to{
+                background-color:black;
+                transform: translateX(50vh);
+                border-radius: 100px;
+                
+            }
+        }
+        @keyframes A2 {
+            0%{transform: rotate(10deg);}
+            10%{transform: rotate(40deg);}
+            20%{transform: rotate(80deg);}
+            30%{transform: rotate(120deg);}
+            40%{transform: rotate(180deg);}
+            50%{transform: rotate(275deg);}
+            60%{transform: rotate(300deg);}
+            70%{transform: rotate(320deg);}
+            80%{transform: rotate(360deg);}
+            
+            
+            
+
+        }
+    </style>
+
+</head>
+<body>
+    <div class="c1">
+        <div class="box"></div>
+    </div>
+</body>
+</html>

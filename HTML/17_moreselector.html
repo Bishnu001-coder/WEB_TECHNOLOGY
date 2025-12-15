@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .boxes *{
+            background-color: aqua;
+            border: 2px solid red;
+        }
+        .boxes::after{
+            content:" i am good";
+            color: red;
+        }
+        .boxes::first-letter{
+            font-size: 45px;
+            color: rgb(204, 224, 23);
+        }
+        input::placeholder{
+            margin: 0px;
+            padding: 0px;
+            height: 20px;
+            border: 1px solid blue;
+            background-color: black;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="boxes">
+        <div class="box"> im first box</div>
+        <div class="box"> im second box</div>
+        <div class="box"> im third box</div>
+        <div class="box"> im four box</div>
+        
+    </div>
+    <input type="text" placeholder="write here">
+</body>
+</html>
