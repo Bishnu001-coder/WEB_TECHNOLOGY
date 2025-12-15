@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav a{
+    text-decoration: none;
+    margin-left: 50px;
+    padding: 50px;
+    text-align: center;
+    
+}
+header{
+    background-color: rgb(241, 119, 4);
+}
